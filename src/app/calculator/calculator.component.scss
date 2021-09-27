@@ -1,0 +1,34 @@
+.container {
+    max-width: 30%;
+    margin-top: 6%;
+}
+td {
+    width: 100px;
+}
+td input {
+    height: 50px;
+}
+.title {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 350px;
+    color: green;
+}
+
+input[type="button"] {
+    background-color: whitesmoke;
+    color: black;
+    width: 100%;
+}
+
+input[type="button"]:hover {
+    border: solid rgb(95, 92, 92) 2px;
+    width: 100%;
+}
+
+input[type="text"] {
+    background-color: white;
+    border: solid black 1px;
+    width: 100%;
+    text-align: right;
+}
