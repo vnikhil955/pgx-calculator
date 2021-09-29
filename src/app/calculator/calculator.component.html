@@ -7,31 +7,28 @@
             <td><input type="button" value="c" (click)="clr()" /> </td>
         </tr>
         <tr>
-            <!-- create button and assign value to each button -->
-            <!-- dis("1") will call function dis to display value -->
-            <td><input type="button" value="1" (click)="dis('1')" /> </td>
-            <td><input type="button" value="2" (click)="dis('2')" /> </td>
-            <td><input type="button" value="3" (click)="dis('3')" /> </td>
-            <td><input type="button" value="/" (click)="dis('/')" /> </td>
+            <td><input type="button" value="1" (click)="get('1')" /> </td>
+            <td><input type="button" value="2" (click)="get('2')" /> </td>
+            <td><input type="button" value="3" (click)="get('3')" /> </td>
+            <td><input type="button" value="/" (click)="operators('/')" /> </td>
         </tr>
         <tr>
-            <td><input type="button" value="4" (click)="dis('4')" /> </td>
-            <td><input type="button" value="5" (click)="dis('5')" /> </td>
-            <td><input type="button" value="6" (click)="dis('6')" /> </td>
-            <td><input type="button" value="-" (click)="dis('-')" /> </td>
+            <td><input type="button" value="4" (click)="get('4')" /> </td>
+            <td><input type="button" value="5" (click)="get('5')" /> </td>
+            <td><input type="button" value="6" (click)="get('6')" /> </td>
+            <td><input type="button" value="-" (click)="operators('-')" /> </td>
         </tr>
         <tr>
-            <td><input type="button" value="7" (click)="dis('7')" /> </td>
-            <td><input type="button" value="8" (click)="dis('8')" /> </td>
-            <td><input type="button" value="9" (click)="dis('9')" /> </td>
-            <td><input type="button" value="+" (click)="dis('+')" /> </td>
+            <td><input type="button" value="7" (click)="get('7')" /> </td>
+            <td><input type="button" value="8" (click)="get('8')" /> </td>
+            <td><input type="button" value="9" (click)="get('9')" /> </td>
+            <td><input type="button" value="+" (click)="operators('+')" /> </td>
         </tr>
         <tr>
-            <td><input type="button" value="." (click)="dis('.')" /> </td>
-            <td><input type="button" value="0" (click)="dis('0')" /> </td>
-            <!-- solve function call function solve to evaluate value -->
-            <td><input type="button" value="=" (click)="solve()" /> </td>
-            <td><input type="button" value="*" (click)="dis('*')" /> </td>
+            <td><input type="button" value="." (click)="get('.')" /> </td>
+            <td><input type="button" value="0" (click)="get('0')" /> </td>
+            <td><input type="button" value="=" (click)="solution()"/> </td>
+            <td><input type="button" value="*" (click)="operators('*')" /> </td>
         </tr>
     </table>
 </div>
