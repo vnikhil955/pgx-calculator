@@ -1,4 +1,3 @@
-import { ThrowStmt } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -65,10 +64,6 @@ export class CalculatorComponent implements OnInit {
     else {
       this.result = +this.value1 + +this.value2;
     }
-
-    console.log('result=' + this.result);
-    console.log('value1=' + this.value1);
-    console.log('value2=' + this.value2);
   }
 
   clr() {
