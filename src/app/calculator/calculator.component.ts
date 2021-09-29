@@ -30,7 +30,6 @@ export class CalculatorComponent implements OnInit {
       this.value1 = this.result;
     }
     else {
-      this.result = "";
       this.result += val;
       this.value2 = this.result;
       this.counter = true;
@@ -40,6 +39,7 @@ export class CalculatorComponent implements OnInit {
   operators(val: any) {
     this.operator = val;
     this.status = true;
+    this.result = "";
   }
 
   solution() {
