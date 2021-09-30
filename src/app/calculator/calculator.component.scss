@@ -1,18 +1,19 @@
-.container {
-    max-width: 30%;
-    margin-top: 6%;
-}
 td {
     width: 100px;
 }
 td input {
     height: 50px;
 }
+#calculator {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 10%;
+}
 .title {
     margin-bottom: 10px;
     text-align: center;
-    width: 350px;
-    color: green;
+    color: yellow;
 }
 
 input[type="button"] {
@@ -27,6 +28,7 @@ input[type="button"]:hover {
 }
 
 input[type="text"] {
+    color: black;
     background-color: white;
     border: solid black 1px;
     width: 100%;
